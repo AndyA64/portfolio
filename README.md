@@ -1,35 +1,23 @@
-# Terminal / Gaming Portfolio (Next.js)
+# My Portfolio
 
-Sections: hero, about, projects, games, Tetris stats & records, contact + social links.
+Personal portfolio with a terminal and gaming theme, built with Next.js.
+
+**Live site:** https://andy-a64.vercel.app/
+
+## Sections
+About, Projects, Tetris results (with videos), Valorant rank, Now Listening (live from Last.fm), and Contact.
+
+## Built with
+Next.js, React, plain CSS, the Last.fm API, and Vercel.
 
 ## Run locally
-Requires Node.js 18.17+.
+Requires Node.js 20.9+.
 
 ```bash
 npm install
-npm run dev        # http://localhost:3000
+npm run dev
 ```
 
-## Edit content
-All text, links, projects, games and Tetris numbers live in **`data/site.js`**.
-Put your resume at `public/resume.pdf` (create the `public/` folder).
-Colors and fonts: top of `app/globals.css` (`:root` variables). Piece colors double as the Tetris palette.
+Open http://localhost:3000. To show recent tracks, put `LASTFM_API_KEY=your_key` in a `.env.local` file. Without it, that section shows a short note.
 
-## Structure
-- `app/`: layout, page, global styles
-- `components/`: `Window` (terminal frame), `Section`, `ProjectCard`, `TetrisStats`, etc.
-- `data/site.js`: your content
-
-## Deploy
-**Vercel (easiest)**
-1. `git init && git add . && git commit -m "init"`, push to GitHub.
-2. Import the repo at vercel.com/new. Click Deploy (no config needed).
-
-**Netlify / other Node hosts**: build `npm run build`, start `npm run start`
-(Netlify auto-detects Next.js).
-
-**Docker / VPS**: `npm run build && npm run start` behind nginx or Caddy on port 3000.
-
-## Notes
-- The contact form uses `mailto:` (no backend). For real submissions, swap the `<form action>` for Formspree or a Next.js route handler with Resend.
-- Update `metadata` in `app/layout.js` for SEO.
+All content lives in `data/site.js`.
