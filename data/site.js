@@ -36,6 +36,13 @@ export const about = {
 // { name: "my-project", desc: "One line on what it does.", stack: ["Next.js"], repo: "https://github.com/...", demo: "https://...", stars: 0 }
 export const projects = [
   {
+    name: "shrink-to-size",
+    desc: "Browser tool that compresses an image to a file size you choose (like 300 KB or 1 MB), entirely on your device with no uploads. Uses a binary search over JPEG/WebP quality with a downscale fallback, and runs in a Web Worker so the UI stays responsive.",
+    stack: ["JavaScript", "Web Workers", "Node test runner", "GitHub Actions", "Vercel"],
+    repo: "https://github.com/AndyA64/shrink-to-size",
+    demo: "https://shrink-to-size.vercel.app/",
+  },
+  {
     name: "tetris-stats-tracker",
     desc: "Log Classic Tetris games and track score, lines, and tetris rate over time, with a chart, JSON export/import, and unit tests.",
     stack: ["JavaScript", "HTML/CSS", "Node test runner"],
