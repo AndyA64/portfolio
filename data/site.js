@@ -64,7 +64,7 @@ export const tetris = {
   ],
   achievements: [
     { year: "2026", text: "Classic Tetris DAS World Champion", video: "https://www.youtube.com/watch?v=iUofvUxOBCM" },
-    { year: "2026", text: "Jonas Cup Champion", video: "" },
+    { year: "2026", text: "Jonas Cup Champion", video: "https://www.youtube.com/live/CvadVGTqjo0?si=wEdUpumWMeL30F5j&t=21975" },
     { year: "2025", text: "Jonas Cup Champion", video: "https://www.youtube.com/watch?v=fl0iInwnZOo&t=2917s&pp=0gcJCT8MAYcqIYzv" },
     { year: "2024", text: "Score world record: 8.9 million (former record holder)", video: "https://www.youtube.com/watch?v=l8673fMRDC0" },
     { year: "2024", text: "Beat the game: reached the game crash", video: "https://www.youtube.com/watch?v=CnuhtfAzVm0" },
