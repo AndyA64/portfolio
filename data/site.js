@@ -86,6 +86,6 @@ export const tetris = {
      rankImage: "/ascendant-1.png",
      riotId: "Jonzo#9281",
      trackerUrl: "https://tracker.gg/valorant/profile/riot/Jonzo%239281/overview?platform=pc&playlist=competitive&season=8102cd81-43a0-d0d7-bd59-47b8fe9bed1b",
-     clip: "", // paste your YouTube link here
+     clip: "https://medal.tv/games/valorant/clip/ihW7T202buwMNBivw?invite=cr-MSxOQ1csMTUwMjQwNzA4",
      clipTitle: "Best clip", // e.g. "Ace on Ascent"
    };

@@ -7,10 +7,24 @@ export function youtubeId(input = "") {
   return m ? m[1] : null;
 }
 
-export default function VideoCard({ video, title }) {
+// Accepts a medal.tv clip URL, or a whole pasted <iframe> snippet containing one.
+export function medalSrc(input = "") {
+  const m = input.match(/https:\/\/medal\.tv\/[^\s"'<>]+/);
+  return m ? m[0].replace(/&amp;/g, "&") : null;
+}
+
+export default function VideoCard({ video = "", title }) {
   const [playing, setPlaying] = useState(false);
+  const medal = medalSrc(video);
   const id = youtubeId(video);
 
+  if (medal) {
+    return (
+      <div className="video">
+        <iframe src={medal} title={title} loading="lazy" allow="autoplay; fullscreen" allowFullScreen />
+      </div>
+    );
+  }
   if (!id) return <div className="video empty">video coming soon</div>;
   if (playing) {
     return (
