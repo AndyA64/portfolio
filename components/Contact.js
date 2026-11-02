@@ -6,7 +6,7 @@ export default function Contact() {
   return (
     <Section id="contact" cmd="mail --to me">
       <div className="grid two">
-        <Window title="send_message.sh">
+        <Window title="send message">
           {/* No backend needed: opens the visitor's email client. Swap for Formspree/Resend later. */}
           <form action={`mailto:${site.email}`} method="post" encType="text/plain" className="form">
             <label>name<input name="name" required autoComplete="name" /></label>

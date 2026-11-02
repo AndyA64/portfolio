@@ -4,7 +4,7 @@ export const site = {
   photo: "/ctwcdasraisetrophy (1).png",
   handle: "andrew",
   role: "Software Engineering Student",
-  tagline: "Software engineering student. Classic Tetris DAS World Champion.",
+  tagline: "Classic Tetris DAS World Champion, Jonas Cup 2025 & 2026 Champion",
   location: "Dallas, TX",
   email: "andrew.artiaga64@gmail.com",
   contactNote: "Looking for internships and chances to build real software. Also happy to talk Classic Tetris.",
@@ -20,7 +20,7 @@ export const site = {
 export const about = {
   bio: [
     "I'm a junior in college studying software engineering in Dallas, Texas. I'm building my skills and looking for my first internship.",
-    "Outside of school I compete in Classic Tetris. I held the score world record in 2024 and won the DAS World Championship in 2026. That mix of practice, precision, and pressure is what I want to bring to engineering.",
+    "Outside of school I compete in Classic Tetris. I held the score world record in 2024 and won the DAS World Championship in 2026. That mix of practice, precision, and logical thinking is what I want to bring to my projects.",
   ],
   education: [
     { when: "Now", what: "B.S. Software Engineering, junior year" },
@@ -52,7 +52,7 @@ export const projects = [
 ];
 
 export const games = [
-  { title: "Classic Tetris (NES)", genre: "Competitive", year: "2026", desc: "My main game. DAS World Champion, Jonas Cup champion, and former score world record holder.", engine: "NES", href: "#tetris", cta: "see my results" },
+  { title: "Classic Tetris (NES)", genre: "Competitive", year: "2020-2026", desc: "2026 CTWC DAS Champion, 2025 & 2026 Jonas Cup Champion, 13x DAS Masters Winner, 5x Masters Winner, and former score world record holder.", engine: "NES", href: "#tetris", cta: "see my results" },
 ];
 
 export const tetris = {
@@ -63,8 +63,8 @@ export const tetris = {
     { label: "Jonas Cup champion", value: "2025 · 2026" },
   ],
   achievements: [
-    { year: "2026", text: "Classic Tetris DAS World Champion", video: "https://www.youtube.com/watch?v=iUofvUxOBCM" },
     { year: "2026", text: "Jonas Cup Champion", video: "https://www.youtube.com/live/CvadVGTqjo0?si=wEdUpumWMeL30F5j&t=21975" },
+    { year: "2026", text: "Classic Tetris DAS World Champion", video: "https://www.youtube.com/watch?v=iUofvUxOBCM" },
     { year: "2025", text: "Jonas Cup Champion", video: "https://www.youtube.com/watch?v=fl0iInwnZOo&t=2917s&pp=0gcJCT8MAYcqIYzv" },
     { year: "2024", text: "Score world record: 8.9 million (former record holder)", video: "https://www.youtube.com/watch?v=l8673fMRDC0" },
     { year: "2024", text: "Beat the game: reached the game crash", video: "https://www.youtube.com/watch?v=CnuhtfAzVm0" },

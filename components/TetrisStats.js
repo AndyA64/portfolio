@@ -16,7 +16,7 @@ export default function TetrisStats() {
         ))}
       </div>
 
-      <h3>achievements</h3>
+      <h3>Achievements</h3>
       <div className="grid two">
         {tetris.achievements.map((a) => (
           <Window key={a.year + a.text} title={`replays/${a.year}`}>

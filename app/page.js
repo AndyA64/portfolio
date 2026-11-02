@@ -24,7 +24,7 @@ export default function Home() {
         <Contact />
       </main>
       <footer className="footer dim">
-        © {new Date().getFullYear()} {site.name} · built with Next.js · GAME OVER? press F5 to continue
+        © {new Date().getFullYear()} {site.name} · built with Next.js
       </footer>
     </>
   );

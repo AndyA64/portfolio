@@ -4,7 +4,7 @@ const items = ["about", "projects", "games", "tetris", "valorant", "listening", 
 export default function Nav() {
   return (
     <header className="nav">
-      <a href="#top" className="brand">{site.handle}@portfolio:~</a>
+      <a href="#top" className="brand">{site.handle}'s portfolio</a>
       <nav aria-label="Primary">
         {items.map((i) => <a key={i} href={`#${i}`}>{i}</a>)}
       </nav>

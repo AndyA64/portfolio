@@ -7,7 +7,7 @@ export default function Valorant() {
   return (
     <Section id="valorant" cmd="valorant --peak">
       <div className="grid two">
-        <Window title="rank.png">
+        <Window title="best rank">
           <div style={{ display: "flex", gap: 20, alignItems: "center", flexWrap: "wrap" }}>
             {v.rankImage && (
               <img src={v.rankImage} alt={`${v.rank} rank icon`} width="120" height="120"
@@ -22,7 +22,7 @@ export default function Valorant() {
           </div>
         </Window>
 
-        <Window title="best_clip.mp4">
+        <Window title="best clip">
           <VideoCard video={v.clip} title={v.clipTitle} />
           <p className="vid-meta">{v.clipTitle}</p>
         </Window>
